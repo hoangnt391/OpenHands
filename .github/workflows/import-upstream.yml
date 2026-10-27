@@ -1,7 +1,6 @@
 name: Import upstream OpenHands source
 on:
-  push:
-    branches: [main]
+  # Automatic sync disabled to preserve mobile app additions.
   workflow_dispatch:
 permissions:
   contents: write
